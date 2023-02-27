@@ -1,0 +1,513 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    font-size: 120%;
+    color: rgb(195, 0, 255);
+    justify-content: center;
+    align-content: center;
+    background-image: url(/images/lil.gif);
+}
+
+.container {
+    
+    border-color: rgb(0, 0, 0);
+    border-width: 7px ;
+    padding: 2px;
+    overflow: hidden;
+    size: 900px;
+}
+@font-face {
+  font-family: 'Amatic SC', cursive;
+    src: url(../fonts/AmaticSC-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Libre Baskerville', serif;
+   src: url(../fonts/LibreBaskerville-Bold.ttf);
+}
+.titulo {
+    font-family: 'Amatic Sc';
+    font-size: 5rem;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 4px 3px 5px rgb(16, 16, 17);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-fluid {
+  background-color: #0c0c0c;
+}
+
+.navbar-brand {
+  color: rgb(245, 236, 240);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-outline-success {
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nombrecito {
+    align-content: center;
+}
+
+.nuevo{
+  font-size: 8rem;
+  color: #4a0fec;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.neon:hover {
+  color: #0004ff;
+}
+
+
+
+p {
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:12px;
+    animation-duration: 1s;
+    animation-name: slidein;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+h3 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+article p::first-letter {
+    font-size: 120%;
+    font-weight: bold;
+    color: rgb(245, 236, 240);
+}   
+
+.alturaunoa {
+    height: 310px;
+}
+
+.alturaunob {
+    height: 200px;
+    background-color: #0c0c0c00;
+}
+
+
+.unouno {
+    background: linear-gradient(199, 43, 191);
+    border-style:double;
+    border-width: 3px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.dosdos {
+    background-color:rgb(0, 0, 0);
+    border-style:double;
+    border-width: 3px;
+    text-align: center;
+}
+
+.trestres {
+    background-color: rgb(0, 0, 0);
+    border-style:double;
+    border-width: 3px;
+    text-align: center;
+}
+
+.trestresd {
+  background-color: rgb(0, 0, 0);
+  border-style:double;
+  border-width: 3px;
+}
+
+.solo {
+  background-color: #fdfdfd;
+}
+
+
+a:link { color: rgb(255, 255, 255); }          
+a:visited { color: rgb(255, 255, 255); }    
+a:hover { background: rgb(255, 255, 254); }  
+a:active { color: rgb(255, 255, 255); }        
+
+
+
+
+a:any-link {
+  border: 1px solid rgb(255, 249, 252);
+  color: rgb(224, 231, 229);
+}
+
+
+a:-webkit-any-link {
+  border: 1px solid rgb(244, 244, 247);
+}
+
+.d {
+  font-size: medium;
+}
+
+
+.exclusivethree::first-letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(235, 232, 232);
+}
+
+
+.exclusivefour::first-line {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration:line-through
+}
+
+
+input:checked + label {
+  color: rgb(243, 240, 240);
+}
+
+
+input:default {
+  box-shadow: 0 0 2px 1px rgb(95, 88, 85);
+}
+
+
+
+.siete {
+  background: rgb(238, 236, 237);
+}
+
+simple-custom {
+  background: rgb(250, 252, 252);
+}
+
+
+:defined {
+  font-style: italic;
+}
+
+
+:dir(ltr) {
+  background-color: none;
+}
+
+:dir(rtl) {
+  background-color: none;
+}
+
+
+input[type="text"]:disabled {
+  background: #ccc;
+}
+
+
+.box {
+  background: rgb(211, 208, 209);
+  height: 30px;
+  width: 250px;
+}
+
+.box:empty {
+  background: rgb(246, 243, 247);
+}
+
+
+input:enabled {
+  color: rgb(235, 233, 241);
+}
+
+input:disabled {
+  color: #e7dbdb;
+}
+
+
+@page :first {
+  margin-left: 50%;
+  margin-top: 50%;
+}
+
+p {
+  page-break-after: always;
+}
+
+
+p:first-child {
+  color: rgb(238, 248, 238);
+  background-color: black;
+  padding: 5px;
+}
+
+
+input:focus {
+  color: rgb(252, 243, 243);
+}
+
+
+.fot:first-of-type {
+  color: rgb(255, 254, 254);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.red-input:focus {
+  background: rgb(212, 214, 214);
+  color: rgb(245, 239, 239);
+}
+
+.blue-input:focus {
+  background: rgb(203, 209, 208);
+  color: rgb(198, 198, 204);
+}
+
+
+input, button {
+  margin: 10px;
+}
+
+
+
+.focus-visible-only:focus-visible {
+  outline: 4px dashed rgb(214, 210, 213);
+}
+
+
+form {
+  border: 1px solid;
+  color: rgb(219, 218, 218);
+  padding: 4px;
+}
+
+form:focus-within {
+  background: rgb(207, 207, 204);
+  color: rgb(209, 209, 209);
+}
+
+input {
+  margin: 4px;
+}
+
+   div:-moz-full-screen {
+    background-color: rgb(207, 201, 202);
+  }
+  
+  div:-webkit-full-screen {
+    background-color: rgb(226, 224, 225);
+  }
+  
+  div:fullscreen {
+    background-color: rgb(216, 208, 210);
+  }
+
+ 
+  #fullscreen:fullscreen {
+    padding: 42px;
+    background-color: rgb(233, 233, 233);
+    border:2px solid rgb(255, 254, 254);
+    font-size: 200%;
+  }
+  
+  #fullscreen:fullscreen > h1 {
+    color: rgb(224, 224, 224);
+  }
+  
+  #fullscreen:fullscreen > p {
+    color: rgb(231, 229, 229);
+  }
+  
+  #fullscreen:fullscreen > button {
+    display:flexbox
+  }
+
+ 
+.veinte {
+  background-color: rgb(218, 218, 218);
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  background-color: none;
+}
+
+
+input:indeterminate + label {
+  background: rgb(221, 223, 221);
+}
+
+
+ 
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+#form1 {
+  width:250px;
+}
+
+#value1 {
+  width:230px;
+  justify-content: left;
+}
+
+input {
+  border: 1px solid rgb(250, 249, 249);
+}
+
+input:in-range {
+  background-color: rgba(238, 238, 238, 0.25);
+}
+
+input:out-of-range {
+  background-color: rgba(255, 251, 251, 0.25);
+  border: 1px solid rgb(255, 254, 254);
+}
+
+input:in-range + label::after {
+  content: 'bien.';
+}
+
+
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+form:invalid {
+  border: 5px solid #ffdddd;
+}
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+form:valid {
+  border: 5px solid #ddffdd;
+}
+
+input:required {
+  border-color: rgb(245, 236, 240);
+  border-width: 3px;
+}
+
+input:required:invalid {
+  border-color: rgb(245, 236, 240);
+}
+
+
+*:lang(en-US) {
+  outline: 2px solid rgb(245, 236, 240);
+}
+
+
+p {
+  font-weight: bold;
+}
+
+li:last-child {
+  border: 2px solid rgb(245, 236, 240);
+}
+
+article :last-of-type {
+  background-color: rgb(245, 236, 240);
+}
+
+
+.l {
+  font-weight: bold;
+}
+
+a:link {
+  color: rgb(190, 36, 108);
+  text-decoration-color: rgb(245, 236, 240);
+}
+
+
+p:not(.irrelevant) {
+  font-weight: bold;
+}
+
+p > strong,
+p > b.important {
+  color: rgb(245, 236, 240);
+}
+
+p > :not(strong, b.important) {
+  color: rgb(245, 236, 240);
+}
+
+
+
+html {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span,
+div em {
+  padding: 5px;
+  border: 1px solid rgb(245, 236, 240);
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.first span:nth-child(2n+1),
+.second span:nth-child(2n+1),
+.third span:nth-of-type(2n+1) {
+  background-color: rgb(245, 236, 240);
+}
+
+
+
+span:nth-last-of-type(2) {
+  background-color: rgb(245, 236, 240);
+}
+
+
+
+main :only-child {
+  color: rgb(245, 236, 240);
+}
+
+
+
+dd:only-of-type {
+  background-color: rgb(245, 236, 240);
+}
+
+
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.req {
+  color: rgb(209, 205, 207);
+}
+
+*:optional {
+  background-color: rgb(218, 214, 216);
+  text-emphasis-color: black;
+}
+

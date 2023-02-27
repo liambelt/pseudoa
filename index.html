@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PSEUDO-ELEMENTOS</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
+
+  
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">B&ensp;Ú&ensp;S&ensp;Q&ensp;U&ensp;E&ensp;D&ensp;A</a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">busca</button>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+        </form>
+      </div>
+    </nav>
+
+    <div class="row alturaunob nombrecito ">
+      <section class="unico col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12
+      col-xxl-12">
+    <h1 class="titulo nuevo"> Pseudo Elementos  </h1>
+    </section></div>
+
+    <div class="row alturaunoa">
+      <section class="dosdos col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+    col-xxl-3">
+      <section class= "dos alinear">
+          <h3 class="Amatic">❝active❞</h3>
+          <a class="solo" href="https://www.youtube.com/@liambelt27">Este enlace cambiará a color blanco mientras hace clic en él.</a>
+          <wbr>
+          <p> Representa un elemento (como un botón) que el usuario está activando.
+             </p>
+      </section>
+
+      </section>
+      <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+        <h3 class="tdos">❝any-link❞</h3>
+        <a class="d" href="https://www.youtube.com/@liambelt27">Enlace externo</a><br>
+        <wbr>
+        <p> La pseudo-clase :any-link de CSS representa a un elemento que actúa como el ancla origen de un hipervínculo independientemente de si ha sido visitado. </p>
+      </section>
+
+      <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+        <h3 class="tdos">❝first-letter❞</h3>
+        <p class="exclusivethree">Eilish no solo canta, sino que toca el piano y además compone sus propias canciones, desde la letra, hasta los. arreglos musicales</p>
+        <wbr>
+        <p> El pseudoelemento CSS aplica estilos a la primera letra de la primera línea de un elemento de nivel de bloque , pero solo cuando no está precedido por otro contenido (como imágenes).</p>
+      </section>
+
+      <section class="dosdos col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+        <h3 class="tdos">❝first-line❞</h3>
+        <p class="exclusivefour">Al igual que muchos otros iconos de la música (desde Michael Jackson hasta Britney Spears), Billie comenzó a explorar su amor por la música cuando era apenas una niña. A los 8 años se unió al coro de niños de Los Ángeles y practicaba canto todos los días, incluso escribió su primera canción a los 11 años.</p>
+        <wbr>
+        <p> El pseudoelemento CSS aplica estilos a la primera línea de un elemento a nivel de bloque .</p>
+      </section>
+    </div>
+ 
+    <div class="row alturaunoa">
+      <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+      col-xxl-3">
+        <section class= "dos alinear">
+        <h3 class="tdos">❝checked❞</h3>
+        <div>
+          <input type="radio" name="my-input" id="yes">
+          <label for="yes">Yes</label>
+        
+          <input type="radio" name="my-input" id="no">
+          <label for="no">No</label>
+        </div>
+
+        
+        <select name="my-select" id="fruit">
+          <option value="opt1">billie</option>
+          <option value="opt2">liambelt27</option>
+          <option value="opt3">peep</option>
+        </select>
+            
+        <wbr><wbr>
+        <p> Representa cualquier radio, checkbox u opción en un elemento que está marcado o conmutado a un estado</p>
+          </section>
+
+      </section>
+      <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+      col-xxl-3">
+      <h3 class="tdos">❝default❞</h3>
+      <form>
+        <input type="radio" name="season" id="spring">
+        <label for="spring">billie</label>
+
+        <input type="radio" name="season" id="summer" checked>
+        <label for="summer">eilish</label>
+    </form>
+    
+        <wbr>
+        <p> Este pseudoelemento selecciona elementos de forma que están predeterminados en un grupo de elementos relacionados.</p>
+    </section>
+
+    <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+      col-xxl-3">
+      <h3 class="tdos">❝defined❞</h3>
+      <simple-custom text="Custom element example text"></simple-custom>
+
+      <h2 class="siete">Everybodys everything</h2>
+
+        <wbr>
+        <p> Representa cualquier elemento que ha sido definido. Incluye cualquier elemento estándar del navegador.</p>
+    </section>
+
+    <section class="trestresd col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+      col-xxl-3">
+      <h3 class="tdos">❝dir ()❞</h3>
+      <div dir="rtl">
+        <div class="nada"></div>
+        <div dir="ltr">
+          test2
+          <div dir="auto"></div>
+        </div>
+      </div>
+      
+        <wbr>
+        <p> El pseudo-elemento coincide con los elementos en función de la direccionalidad del texto.</p>
+    </section>
+      </div>
+
+      <div class="row alturaunoa">
+        <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+          <section class= "dos alinear">
+          <h3 class="tdos">❝disabled❞</h3>
+          <form>
+            <label for="name">Name:</label>
+            <input name="name" type="text">
+          
+              <label for="emp">Employed:</label>
+              <select name="emp" disabled>
+                  <option>No</option>
+                  <option>Yes</option>
+          </select>
+          <wbr>
+          <p> Representa a cualquier elemento deshabilitado. Un elemento se encuentra deshabilitado si no puede ser activado (por ejemplo ser selecionado.</p>
+            </section>
+        </section>
+
+        <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+            <h3 class="tdos">❝empty❞</h3>
+            <div class="box"></div>
+            <div class="box">color.</div>
+            <div class="box">
+            
+            </div>
+
+            <wbr>
+            <p> La pseudo-clase representa cualquier elemento que no tenga hijos. Los hijos pueden ser nodos de un elemento o texto.</p>
+      </section>
+
+      <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+            <h3 class="tdos">❝enabled❞</h3>
+            <form action="url_of_form">
+              <label for="FirstField"> (habilitado):</label>
+              <input type="text" id="FirstField" value="Lorem"><br>
+            
+              <label for="SecondField">(deshabilitado):</label>
+              <input type="text" id="SecondField" value="Ipsum" disabled="disabled"><br>
+            
+              <input type="button" value="Enviar">
+            </form>
+            <wbr>
+            <p> La pseudo-clase -enabled CSS representa cualquier elemento habilitado.</p>
+      </section>
+
+      <section class="dosdos col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+            <h3 class="tdos">❝first❞</h3>
+            <p>Primera página.</p>
+            <p>Segunda página.</p>
+            <button>Imprimir!</button>
+           <wbr>
+            <p> La pseudo-clase -first de CSS, utilizada con la regla-at @page, representa la primera página de un documento impreso.</p>
+      </section>
+      </div>
+  
+      <div class="row alturaunoa">
+        <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+        <section class= "dos alinear">
+              <h3 class="tdos">❝first-child❞</h3>
+              <div>
+                <p>¡Este texto está seleccionado!</p>
+                <p>Este texto no está seleccionado.</p>
+              </div>
+              <wbr>
+              <p> La pseudo-clase :first-child de CSS representa el primer elemento entre un grupo de elementos hermanos.</p>
+        </section>
+        </section>
+
+        <section class="dosdos col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+            <h3 class="tdos">❝first-of-type❞</h3>
+            <h2>Encabezado</h2>
+            <p class="fot">Párrafo 1</p>
+            <p>Párrafo 2</p>
+            <wbr>
+            <p> La pseudo-clase -first-of-type de CSS representa el primer elemento de su tipo entre un grupo de elementos hermanos.</p>
+        </section>
+
+        <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+            <h3 class="tdos">❝focus❞</h3>
+            <input class="red-input" value="Voy a ser de color aqua cuando enfoque."><br>
+            <input class="blue-input" value="Voy a ser de color aqua cuando enfoque.">
+            <wbr><br>
+            <p> La pseudo-clase :focus CSS representa un elemento que ha recibido el foco. Generalmente se activa cuando el usuario hace clic, toca un elemento o lo selecciona con la tecla "Tab".</p>
+        </section>
+      
+        <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+        col-xxl-3">
+            <h3 class="amticsc">❝focus-visible❞</h3>
+            <input class="focus-visible-only" value=":focus-visible only"><br>
+            <button class="focus-visible-only">:focus-visible only</button>
+            <p> La pseudo-clase -focus-visible se aplica mientras un elemento coincide con la pseudo-clase -focus y el UA (Agente de Usuario) determina mediante heurística que el foco debe hacerse evidente en el elemento.</p>
+        </section>
+        </div>
+
+        <div class="row alturaunoa">
+        <section class="dosdos col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <section class= "dos alinear">
+                <h3 class="tdos">❝focus-within❞</h3>
+                <form>
+                  <label for="given_name">Nombre:</label>
+                  <input id="given_name" type="text">
+                  <br>
+                  <label for="family_name">Apellido:</label>
+                  <input id="family_name" type="text">
+                </form>
+            <p> La pseudo-clase representa un elemento que ha recibido el foco o que contiene un elemento que ha recibido el foco.</p>
+        </section>
+        </section>
+
+        <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <h3 class="tdos">❝fullscreen❞</h3>
+              <div id="fullscreen">
+                <div id="fullscreen">
+                  <h2>Demostración :fullscreen</h2>
+                  <p>Este texto se pondrá grande y rojo cuando el navegador esté en modo de pantalla completa.</p>
+                  <button id="fullscreen-button">Entrar en pantalla completa</button>
+                </div>
+              </div>
+              &ensp;
+              <p> La pseudo-clase -fullscreen de CSS representa un elemento que se muestra cuando el navegador está en modo de pantalla completa.</p>
+        </section>
+
+        <section class="dosdos col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <h3 class="tdos">❝hover❞</h3>
+              <a class="veinte "href="https://www.youtube.com/@liambelt27">enlace</a>
+              <wbr>
+              <p> La pseudo-clase :hover de CSS coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa.</p>
+        </section>
+
+        <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <h3 class="tdos">❝indeterminate❞</h3>
+              <div>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Esta etiqueta es color blanco.</label>
+              </div>
+              <div>
+                <input type="radio" id="radio">
+                <label for="radio">Esta etiqueta es color blanco.</label>
+              </div>
+              
+              <wbr>
+              <p> Cuyo estado sea indeterminado.</p>
+        </section>
+        </div>
+ 
+        <div class="row alturaunoa">
+        <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+        <section class= "dos alinear">
+                <h3 class="tdos">❝in-range❞</h3>
+                <form action="" id="form1">
+                  <ul>Los valores entre 1 y 10 son válidos.
+                    <li>
+                      <input id="value1" name="value1" type="number" placeholder="1 a 10" min="1" max="10" value="11">
+                    </li>
+                  </ul>
+                </form>
+              <wbr> 
+              <p> La pseudo-clase -in-range de CSS representa un elemento cuyo valor actual se encuentra dentro de los límites de rango especificados por los atributos min y max.</p>
+        </section>
+        </section>
+
+        <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <h3 class="tdos">❝invalid❞</h3>
+              <form>
+                <label for="email_input">Introduzca una dirección de correo electrónico:</label>
+                <input type="email" id="email_input" required/>
+              </form>
+              
+              <p> La pseudo-clase :invalid de CSS representa cualquier elemento ... cuyos contenidos no se puedan validar</p>
+        </section>
+
+        <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <h3 class="tdos">❝lang❞</h3>
+              <p lang="pl-PL">Gdy widzimy znak z narysowaną czaszką i napisem <strong lang="en-US">DANGER</strong> to lepiej nie wchodzić do środka.</p>
+              <wbr>
+              <p> La pseudo-clase es utilizada para modificar elementos en función del idioma en el que se determina que están.</p>
+        </section>
+
+        <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <h3 class="tdos">❝last-child❞</h3>
+              <h6>cantantes</h6>
+              <ul>
+              <li>lil peep</li>
+              <li>xxxtentacion</li>
+              <li>billie eilish</li>
+              </ul>
+              <p> La pseudo-clase representa el último elemento entre un grupo de elementos hermanos.</p>
+        </section>
+        </div>
+
+        <div class="row alturaunoa">
+          <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+            <section class= "dos alinear">
+            <h3 class="tdos">❝last-of-type❞</h3>
+            <article>
+              <div>Este `div` es primero.</div> ¡Este 
+              <div><span>'span' anidado es el último</span>!</div>
+            </article>
+            
+            <wbr>
+            <p> La pseudo-class representa el último elemento de su tipo entre un grupo de elementos hermanos.</p>
+              </section>
+          </section>
+  
+          <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <h3 class="tdos">❝link❞</h3>
+              <p class="l">
+                Página para visitar:
+            </p>
+            <ul>
+                <li>
+                <a href=https://www.youtube.com/@liambelt27>liambelt27</a>
+                </li>
+            </ul>
+              <wbr>
+              <p> La pseudo-clase representa un elemento que aún no se ha visitado. Coincide con cada elemento no visitado.</p>
+        </section>
+  
+        <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <h3 class="tdos">❝not❞</h3>
+              <p class="irrelevant"><b class="important">mibillie</b>'s Jet <del>Momentum</del> Billie eilish<b>artista</b> de Estados Unidos.</p>
+              <wbr>
+              <p> La pseudoclase  representa elementos que no coinciden con una lista de selectores.</p>
+        </section>
+  
+        <section class="dosdos col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+          col-xxl-3">
+              <h3 class="tdos">❝nth-child❞</h3>
+              <h3><code class=""></code>
+                <code></code></h3>
+             <p>Los hijos 1 y 3 son seleccionados.</p>
+             <div class="first">
+               <span>Span 1!</span>
+               <span>Span 2</span>
+               <span>Span 3!</span>
+               <span>Span 4</span>
+             </div>
+             <wbr>
+              <p> La pseudo-clase coincide con uno o más elementos en función de su posición entre un grupo de hermanos.</p>
+        </section>
+        </div>        
+ 
+  <div class="row alturaunoa">
+    <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+    col-xxl-3">
+    <section class= "dos alinear">
+          <h3 class="tdos">❝nth-last-of-type❞</h3>
+          <div>
+            <span>Wow, this span gets limed!!!</span>
+            <del>This is struck through.</del>
+            <span>Here is one last span.</span>
+          </div>
+          <wbr>
+          <p> La pseudo-clase coincide con uno o más elementos de un tipo dado, en función de su posición entre un grupo de hermanos, contando desde el final.</p>
+    </section>
+    </section>
+
+    <section class="dosdos col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+    col-xxl-3">
+        <h3 class="tdos">❝only-child❞</h3>
+        <main>
+          <div>
+            <i>Soy un hijo único y solitario.</i>
+          </div>
+        
+          <div>
+            <i>Yo tengo hermanos.</i><br>
+            <b>¡Yo también!</b><br>
+          </div>
+        </main>
+        <wbr>
+        <p> La pseudo-clase representa un elemento sin hermanos.</p>
+    </section>
+
+    
+
+    <section class="unouno col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+    col-xxl-3">
+        <h3 class="tdos">❝only-of-type❞</h3>
+        <p>Details about <b>QPACK</b> can be found in <a href="#">RFC 9204</a>.</p>
+        <dl>
+            <dt>Published</dt>
+            <dd>2022</dd>
+        </dl>
+        <wbr><br>
+        <p> La pseudo-clase representa un elemento que no tiene hermanos del mismo tipo.</p>
+    </section>
+  
+    <section class="trestres col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3
+    col-xxl-3">
+        <h3 class="tdos">❝opcional❞</h3>
+        <form>
+          <label for="name">Name: <span class="req">*</span></label>
+          <input name="name" type="text" required>
+      
+          <label for="birth">Date of Birth:</label>
+          <input name="birth" type="date">
+    
+      </form>
+        <wbr>
+    </section>
+    </div>
+  </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
