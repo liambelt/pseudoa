@@ -390,7 +390,7 @@ input:in-range + label::after {
 
 
 input:invalid {
-  background-color: #ffdddd;
+  background-color: #ffffff;
 }
 
 form:invalid {
@@ -510,3 +510,7 @@ label {
   text-emphasis-color: black;
 }
 
+.accordion-item{
+  background-color: #be39cf;
+  
+}
