@@ -76,8 +76,7 @@ p {
     color:rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:12px;
-    animation-duration: 1s;
-    animation-name: slidein;
+   
     overflow: hidden;
     text-align: center;
   }
@@ -106,7 +105,7 @@ article p::first-letter {
 }   
 
 .alturaunoa {
-    height: 310px;
+    height: 280px;
 }
 
 .alturaunob {
@@ -126,7 +125,7 @@ article p::first-letter {
 .dosdos {
     background-color:rgb(0, 0, 0);
     border-style:double;
-    border-width: 3px;
+    border-width: 2px;
     text-align: center;
 }
 
@@ -283,7 +282,7 @@ input:focus {
 
 
 input, button {
-  margin: 10px;
+  margin: 8px;
 }
 
 
@@ -305,7 +304,7 @@ form:focus-within {
 }
 
 input {
-  margin: 4px;
+  margin: 2px;
 }
 
    div:-moz-full-screen {
@@ -367,7 +366,7 @@ li {
 }
 
 #value1 {
-  width:230px;
+  width:180px;
   justify-content: left;
 }
 
